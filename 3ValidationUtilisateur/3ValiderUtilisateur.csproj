@@ -67,7 +67,9 @@
     <None Include="3ValiderUtilisateur\Elements.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="3ValiderUtilisateur\3ValiderUtilisateurUserControl.ascx" />
+    <Content Include="3ValiderUtilisateur\3ValiderUtilisateurUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Compile Include="3ValiderUtilisateur\3ValiderUtilisateurUserControl.ascx.cs">
       <DependentUpon>3ValiderUtilisateurUserControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
